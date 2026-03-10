@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import asyncio as asinc
 
-dados = pd.read_csv(os.path.join(os.getcwd(),'API_CEP','api','bq-CEPs.csv'), sep=",", encoding="utf-8")
+dados = pd.read_csv(os.path.join(os.getcwd(),'api','bq-CEPs.csv'), sep=",", encoding="UTF-8")
 
 app= FastAPI()
 
